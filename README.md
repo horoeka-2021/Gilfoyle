@@ -4,6 +4,8 @@
 ###### Simple website
 ######  Simple and Spooky
 
+
+![alt text](https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2018/10/18164731/700Horror.jpg)
 ## Idea
 #### Movie reviews
 #### add Trailer links
