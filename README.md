@@ -1,16 +1,21 @@
 # Gilfoyle
+#_movie site 
 
-_movie site 
+###### Simple website
+######  Simple and Spooky
 
-Simple website
+## Idea
+#### Movie reviews
+#### add Trailer links
 
-Movie reviews
-Add Trailer links
-IMDB review
-Popup window
-Movie posters - imgs
-Horror/ Thrillers
-Name: ---- Rating: ---- Director: ---- Year: ----- Comments: ------
-Star Rating
-Stretch: Add user comments
-Simple and Spooky
+#### IMDB review links 
+#### Movie posters - imgs
+#### Genres  - Horror/ Thrillers/Romantic
+
+## Detail page list
+### Name: ---- Rating: ---- Director: ---- Year: ----- Comments: ------
+
+
+
+#****** stretch******
+#Popup window for Trailer 
