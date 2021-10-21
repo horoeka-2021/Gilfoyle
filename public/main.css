@@ -1,6 +1,9 @@
 body {
   background-color: grey;
-  font-family: "Spirax", cursive;
+  /* font-family: "Spirax", cursive; */
+  font-family: "Qahiri", sans-serif;
+  margin: 25px;
+  font-size: 1.2em;
 }
 
 .container {
@@ -14,25 +17,28 @@ body {
   flex-direction: column;
 }
 
-.puppy-list {
+.movie-list {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 50px;
 }
 
-.puppy {
+.movie {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 50px;
+  color: bisque;
 }
 
 .img-circle {
-  border-radius: 50%;
+  border-radius: 10px;
   object-fit: cover;
   width: 230px;
   height: 230px;
+  border: 1px solid;
+  box-shadow: 5px 10px 8px #888888;
 }
 
 .title {
@@ -48,5 +54,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  line-height: 1.5;
   font-family: "Roboto", sans-serif;
 }
