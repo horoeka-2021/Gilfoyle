@@ -1,0 +1,25 @@
+<form class="form" action="/movies/{{id}}/edit" method="post">
+  <img class="img-circle" src="{{image}}" alt="{{name}}">
+  <label for="name" class="form-item">
+    Name:
+    <input type="text" name="name" value="{{name}}">
+  </label>
+
+  <label for="breed" class="form-item">
+    Director:
+    <input type="text" name="breed" value="{{breed}}">
+  </label>
+
+  <label for="owner" class="form-item">
+    Rating:
+    <input type="text" name="owner" value="{{owner}}">
+  </label>
+  <label for="comments" class="form-item">
+    Comments:
+    <input type="text" name="name" value="{{name}}">
+  </label>
+
+  <input type="hidden" name="image" value="{{image}}">
+
+  <input type="submit" name="" value="Submit">
+</form>
