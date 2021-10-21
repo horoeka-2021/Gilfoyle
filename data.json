@@ -1,77 +1,77 @@
 {
-    "movies": [
-        "The Conjuring Trilogy",
-        {
-            "title": "The Conjuring",
-            "director": "James Wan",
-            "image": "/conjuring.jpg",
-            "year": "19 July 2013 (USA)",
-            "rating": "7.5/10",
-            "comments": [{"test": "test-text"}]
-        },
-        {
-            "title": "The Conjuring 2",
-            "director": "James Wan",
-            "image": "/conjuring-2.jpg",
-            "year": "19 July 2013 (USA)",
-            "rating": "7.5/10",
-            "comments": " "
-        },
-        {
-            "title": "The Conjuring 3",
-            "director": "James Wan",
-            "image": "/conjuring-3.jpg",
-            "year": "19 July 2013 (USA)",
-            "rating": "7.5/10",
-            "comments": " "
-        },
-        {
-            "title": "Sinister",
-            "director": "Scott Derrickson",
-            "image": "/sinister.jpg",
-            "year": "12 October 2012 (Canada)",
-            "rating": "6.8/10",
-            "comments": " "
-        },
-        {
-            "title": "Hereditary",
-            "director": "Ari Aster",
-            "image": "/hereditary.jpg",
-            "year": "8 June 2018 (USA)",
-            "rating": "7.3/10",
-            "comments": " "
-        },
-        {
-            "title": "Insidious",
-            "director": "James Wan",
-            "image": "/insidious.jpg",
-            "year": "21 July 2011 (New Zealand)",
-            "rating": "6.8/10",
-            "comments": " "
-        },
-        {
-            "title": "Get Out",
-            "director": "Jordan Peele",
-            "image": "/get-out.jpg",
-            "year": "24 February 2017 (USA)",
-            "rating": "7.7/10",
-            "comments": " "
-        },
-        {
-            "title": "Incident in Ghostland",
-            "director": "Pascal Laugier",
-            "image": "/incident-ghostland.jpg",
-            "year": "14 March 2018 (USA)",
-            "rating": "6.4/10",
-            "comments": " "
-        },
-        {
-            "title": "The Silence of the Lambs",
-            "director": "Jonathan Demme",
-            "image": "/silence-of-lambs.jpg",
-            "year": "30 January 1991 (USA)",
-            "rating": "8.6/10",
-            "comments": " "
-        }
-    ]
+  "movies": [
+    "The Conjuring Trilogy",
+    {
+      "title": "The Conjuring 2",
+      "director": "James Wan",
+      "image": "/conjuring-2.jpg",
+      "year": "19 July 2013 (USA)",
+      "rating": "7.5/10",
+      "comments": " "
+    },
+    {
+      "title": "The Conjuring 3",
+      "director": "James Wan",
+      "image": "/conjuring-3.jpg",
+      "year": "19 July 2013 (USA)",
+      "rating": "7.5/10",
+      "comments": " "
+    },
+    {
+      "title": "Sinister",
+      "director": "Scott Derrickson",
+      "image": "/sinister.jpg",
+      "year": "12 October 2012 (Canada)",
+      "rating": "6.8/10",
+      "comments": " "
+    },
+    {
+      "title": "Hereditary",
+      "director": "Ari Aster",
+      "image": "/hereditary.jpg",
+      "year": "8 June 2018 (USA)",
+      "rating": "7.3/10",
+      "comments": " "
+    },
+    {
+      "title": "Insidious",
+      "director": "James Wan",
+      "image": "/insidious.jpg",
+      "year": "21 July 2011 (New Zealand)",
+      "rating": "6.8/10",
+      "comments": " "
+    },
+    {
+      "title": "Get Out",
+      "director": "Jordan Peele",
+      "image": "/get-out.jpg",
+      "year": "24 February 2017 (USA)",
+      "rating": "7.7/10",
+      "comments": " "
+    },
+    {
+      "title": "Incident in Ghostland",
+      "director": "Pascal Laugier",
+      "image": "/incident-ghostland.jpg",
+      "year": "14 March 2018 (USA)",
+      "rating": "6.4/10",
+      "comments": " "
+    },
+    {
+      "title": "The Silence of the Lambs",
+      "director": "Jonathan Demme",
+      "image": "/silence-of-lambs.jpg",
+      "year": "30 January 1991 (USA)",
+      "rating": "8.6/10",
+      "comments": " "
+    },
+    {
+      "title": "the-conjuring",
+      "director": "James Wan",
+      "image": "/conjuring.jpg",
+      "year": "19 July 2013 (USA)",
+      "rating": "7.5/10",
+      "comments": 4
+    }
+  ]
 }

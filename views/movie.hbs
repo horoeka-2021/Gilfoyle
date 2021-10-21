@@ -1,11 +1,11 @@
 <div class="movie">
   <img class="img-circle" src="{{image}}" alt="{{name}}" />
-  <h2>{{name}}</h2>
+  <h2>{{title}}</h2>
   <div><a href="{{urlplaceholder}}">Movies</a></div>
   <div>Director: {{director}}</div>
   <div>Rating: {{rating}}</div>
   <div>Year: {{year}}</div>
 
-  <div>Review: <ul><li>{{#each}}{{comments}}{{/each}}</li></ul></div>
+  <div>comments: {{#each comments}}<ul><li>{{test}}</li></ul>{{/each}}</div>
   <a href="/movies/{{title}}/edit">Click me</a>
 </div>

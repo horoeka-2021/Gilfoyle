@@ -1,16 +1,16 @@
 <div class="movie">
-  <img class="img-circle" src="{{image}}" alt="{{name}}" />
-  <h2>{{name}}</h2>
+  <img class="img-circle" src="{{image}}" alt="{{title}}" />
+  <h2>{{title}}</h2>
   <div><a href="{{urlplaceholder}}">Movies</a></div>
   <div>Director: {{director}}</div>
   <div>Rating: {{rating}}</div>
   <div>Year: {{year}}</div>
 
-  <div>Review: <ul><li>{{#each}}{{comments}}{{/each}}</li></ul></div>
+  <div>comments: <ul><li>{{#each comments}}{{test}}{{/each}}</li></ul></div>
 
   <form class="form" action="/movies/{{title}}/edit" method="post">
     review:
-    <textarea type="text" name="review" row="4" cols="50">
+    <textarea type="text" name="comments" row="4" cols="50">
 
     </textarea>
     <input type="submit" name="" value="Submit" />

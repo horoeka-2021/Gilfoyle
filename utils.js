@@ -6,7 +6,7 @@ module.exports = {
 };
 
 function getData(cb) {
-  const filepath = path.join(__dirname, "test.json");
+  const filepath = path.join(__dirname, "data.json");
   fs.readFile(filepath, "utf8", (err, contents) => {
       if (err) {
           console.error(err.message);
@@ -26,7 +26,7 @@ function getData(cb) {
 function updateData (newData, cb){
     try {
         const stringData = JSON.stringify(newData, null, 2)
-        const filepath = path.join(__dirname, "test.json");
+        const filepath = path.join(__dirname, "data.json");
         
         fs.writeFile(filepath, stringData, 'utf-8', (err) =>{
             if (err) {
