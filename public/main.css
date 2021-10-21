@@ -1,6 +1,6 @@
 body {
-  background-color: #FFCCCC;
-  font-family: 'Spirax', cursive;
+  background-color: grey;
+  font-family: "Spirax", cursive;
 }
 
 .container {
@@ -48,5 +48,5 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
