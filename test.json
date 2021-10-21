@@ -14,7 +14,7 @@
       "director": "Sam",
       "image": "https://i.insider.com/5e5036b5a9f40c18895e8d88?width=700&format=jpeg&auto=webp",
       "year": "Labrador",
-      "review": "this movie is trash\r\n    "
+      "review": ["hello", "eqweqeqw", "wqeqwewqewq"]
     }
   ]
 }
