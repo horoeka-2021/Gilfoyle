@@ -13,11 +13,16 @@
 #### Genres  - Horror/ Thrillers/Romantic
 
 ## Detail page list
-### Name: ---- Rating: ---- Director: ---- Year: ----- Comments: ------
+##### Image/movie poster : ----
+##### Movie Name: ---- 
+##### Rating: ---- 
+##### Director: ---- 
+##### Year: ----- 
+##### Comments: ------
 
 
 
-#****** stretch******
+## ****** stretch******
 #Popup window for Trailer 
 
 ## Task
