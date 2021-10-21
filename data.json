@@ -7,7 +7,7 @@
             "image": "/conjuring.jpg",
             "year": "19 July 2013 (USA)",
             "rating": "7.5/10",
-            "comments": " "
+            "comments": [{"test": "test-text"}]
         },
         {
             "title": "The Conjuring 2",
