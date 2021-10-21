@@ -2,7 +2,8 @@
 
 _movie site 
 
-Simple 
+Simple website
+
 Movie reviews
 Add Trailer links
 IMDB review
