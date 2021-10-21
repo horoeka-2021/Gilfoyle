@@ -9,9 +9,13 @@
 ## Idea
 
 **User Story 1:** *As a user, I want to view a list of horror movies, so that I can see their description*
+
 **User Story 2:** *As a user, I want to click on the poster and be taken to a comments section*
+
 **User Story 3:** *As a user, I want to then add and edit my own comments about that movie*
+
 **User Story 4:** *As a user, I want to navigate back to the homepage from the current movie selection*
+
 **User Story 5 -- Stretch:** *As a user, I want a sort filter that shows me a selection of movies according to year and rating*
 
 #### Movie reviews
