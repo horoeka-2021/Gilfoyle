@@ -1,23 +1,32 @@
-const express = require('express')
-const hbs = require('express-handlebars')
+const express = require("express");
+const hbs = require("express-handlebars");
 
-const movieRoutes = require('./routes')
+const movieRoutes = require("./routes");
 
-const server = express()
+const { getData } = require("./utils");
+const server = express();
 
-server.use(express.static('public'))
-server.use(express.urlencoded({extended: false}))
+server.use(express.static("public"));
+server.use(express.urlencoded({ extended: false }));
 
-server.engine('hbs', hbs({extname: 'hbs'}))
-server.set('view engine', 'hbs')
+server.engine("hbs", hbs({ extname: "hbs" }));
+server.set("view engine", "hbs");
 
-module.exports = server
+module.exports = server;
 
-server.use('/movies', movieRoutes)
+server.use("/movies", movieRoutes);
 
-
-server.get('/', (req, res)=>{
-    // res.render('home')
-    res.send('page alive')
-    console.log('alive');
-})
+server.get("/", (req, res) => {
+  getData((err, contents) => {
+    if (err) {
+      res.sendStatus(500);
+      return;
+    }
+    const moviesData = {
+      movies: contents.movies,
+    };
+    res.render("home", moviesData);
+  });
+  // res.send('page alive')
+  // console.log('alive');
+});
