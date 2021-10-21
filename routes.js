@@ -42,13 +42,18 @@ router.get('/:movies/edit', (req, res) =>{
         const dataArrTest = data.movies
         const returnTitle = dataArrTest.find((el) => el.title === req_Title);
 
+        const emptyArr = []
+        const pushContent = emptyArr.push(req.body.review)
+
         const updateReview = {
             ...returnTitle,
-            // id: parseInt(req.params.movies),
+      
             // title: req.body.movies,
             review: req.body.review
         }
         console.log(updateReview);
+
+        
 
         const filtered = dataArrTest.filter(element => element.title !== req.params.movies ) 
         const newArr = [...filtered, updateReview]
