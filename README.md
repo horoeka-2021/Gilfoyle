@@ -19,3 +19,8 @@
 
 #****** stretch******
 #Popup window for Trailer 
+
+## Task
+##### Ben/Crystal - routes
+##### Goretti - data.Json
+##### Nathan/Vimal - Handlebars/CSS
