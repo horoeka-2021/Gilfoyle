@@ -22,7 +22,7 @@ router.get("/:movies", (req, res) => {
 
 // localhost:3000/movies/___ (movie title)/edit
 //edit.hbs adding comments page
-router.get('/:movies/edit', (req, res) => {
+router.get('/:movies/addcomments', (req, res) => {
   getData((err, data) => {
     if (err) {
       res.status(500).send(err.message)
@@ -30,14 +30,14 @@ router.get('/:movies/edit', (req, res) => {
     }
     const req_Title = req.params.movies;
     const returnTitle = data.movies.find((element) => element.title === req_Title);
-    res.render("edit", returnTitle);
+    res.render("addcomments", returnTitle);
   })
 
 })
 
 //localhost:3000/movies/edit after you click submit
 //write data and upload data functions
-router.post('/:movies/edit', (req, res) => {
+router.post('/:movies/addcomments', (req, res) => {
   getData((err, data) => {
     if (err) {
       res.status(500).send(err.message)
@@ -50,7 +50,7 @@ router.post('/:movies/edit', (req, res) => {
     //this part pushes comments
     const commentsArr = [...returnTitle.comments]
     //testKey: just key for object can be changed
-    const commentObj = { testKey: req.body.comments }
+    const commentObj = { review: req.body.comments }
     commentsArr.push(commentObj)
 
     //this part updates the object with new comments

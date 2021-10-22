@@ -7,6 +7,6 @@
   <div>Rating: {{rating}}</div>
   <div>Year: {{year}}</div>
   <div class="review-list">Review:
-    {{#each comments}}<ul><li>{{test}}</li></ul>{{/each}}</div>
-  <button href="/movies/{{title}}/edit">add review</button>
+    {{#each comments}}<ul><li>{{review}}</li></ul>{{/each}}</div>
+  <button><a class="sub-btn-movie"href="/movies/{{title}}/addcomments">add review</a></button>
 </div>

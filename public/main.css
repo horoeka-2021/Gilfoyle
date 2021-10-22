@@ -99,3 +99,8 @@ body h1 {
   /* line-height: 1.5; */
   font-family: "Roboto", sans-serif;
 }
+
+.sub-btn-movie{
+  text-decoration: none;
+  color: black;
+}

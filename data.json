@@ -1,31 +1,20 @@
 {
   "movies": [
-
     {
       "title": "The Conjuring 2",
       "director": "James Wan",
       "image": "/conjuring-2.jpg",
       "year": "19 July 2013 (USA)",
       "rating": "7.5/10",
-      "comments": " "
+      "comments": []
     },
-
-
     {
       "title": "The Conjuring 3",
       "director": "James Wan",
       "image": "/conjuring-3.jpg",
       "year": "19 July 2013 (USA)",
       "rating": "7.5/10",
-      "comments": " "
-    },
-    {
-      "title": "Sinister",
-      "director": "Scott Derrickson",
-      "image": "/sinister.jpg",
-      "year": "12 October 2012 (Canada)",
-      "rating": "6.8/10",
-      "comments": " "
+      "comments": []
     },
     {
       "title": "Hereditary",
@@ -33,7 +22,7 @@
       "image": "/hereditary.jpg",
       "year": "8 June 2018 (USA)",
       "rating": "7.3/10",
-      "comments": " "
+      "comments": []
     },
     {
       "title": "Insidious",
@@ -41,7 +30,7 @@
       "image": "/insidious.jpg",
       "year": "21 July 2011 (New Zealand)",
       "rating": "6.8/10",
-      "comments": " "
+      "comments": []
     },
     {
       "title": "Get Out",
@@ -49,31 +38,15 @@
       "image": "/get-out.jpg",
       "year": "24 February 2017 (USA)",
       "rating": "7.7/10",
-      "comments": " "
+      "comments": []
     },
     {
-      "title": "the-conjuring",
+      "title": "The Conjuring",
       "director": "James Wan",
       "image": "/conjuring.jpg",
       "year": "19 July 2013 (USA)",
       "rating": "7.5/10",
-      "comments": [
-        {
-          "testKey": "test-value"
-        },
-        {
-          "testKey": "test-value"
-        },
-        {
-          "testKey": "test-value"
-        },
-        {
-          "testKey": "\r\n    asdsad"
-        },
-        {
-          "testKey": "dasdasdwqeqwe\r\n    "
-        }
-      ]
+      "comments": []
     },
     {
       "title": "The Conjuring 2",
@@ -97,14 +70,15 @@
       "image": "/incident-ghostland.jpg",
       "year": "14 March 2018 (USA)",
       "rating": "6.4/10",
-      "comments": [
-        {
-          "testKey": "\r\n    asdad"
-        },
-        {
-          "testKey": "\r\n    asdads"
-        }
-      ]
+      "comments": []
+    },
+    {
+      "title": "Sinister",
+      "director": "Scott Derrickson",
+      "image": "/sinister.jpg",
+      "year": "12 October 2012 (Canada)",
+      "rating": "6.8/10",
+      "comments": []
     }
   ]
 }
