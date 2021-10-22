@@ -1,42 +1,36 @@
 const request = require('supertest')
 
-// const { getData, updateData } = require("../utils");
+const { getData, updateData } = require("../utils");
 const server = require('../server')
 
 
 //home
-test('GET /movies returns correct response', (done) => {
+test('GET / home returns correct response', (done) => {
   request(server)
-  .get('/')
-  .expect(200)
-  .end((err, res) => {
-    expect(err).toBeNull()
-    console.log(res.text);
-    expect(res.text).toMatch('Movies')
-    done()
-  })
+    .get('/')
+    .expect(200)
+    .end((err, res) => {
+      expect(err).toBeNull()
+      expect(res.text).toMatch('Movies')
+      done()
+    })
 })
 
-// test('GET /movies/:id returns correct response', (done) => {
-//   request(server)
-//   .get('/movies/2')
-//   .expect(200)
-//   .end((err, res) => {
-//     expect(err).toBeNull()
-//     //console.log(res.text)
-//     expect(res.text).toMatch('The Conjuring')
-//     done()
-//   })
-// })
-
-// test('POST /movies/:id redirects to movie review form', (done) => {
-//   request(server)
-//   .post('/movies/:id')
-//   .send({'comment' : 'This movie was preeee scary'})
-//   .set('Content-Type', 'application/x-www-form-urlencoded')
-//   .expect(302)
-//   .end((err, res) => {
-//     expect(err).toBeNull()
-//     expect(res.header.location).toMatch('/movies/3')
-//     done() 
-//   })
+test('/GET ensures located object matches page id', (done) => {
+  getData((err, data) => {
+    if (err) {
+      console.error(err.message)
+    }
+    const dataArr = data.movies
+    const movieIndex = Math.floor(Math.random() * dataArr.length)
+    request(server)
+      .get('/movies/' + dataArr[movieIndex].title)
+      .expect(200)
+      .end((err, res) => {
+        expect(err).toBeNull()
+        //console.log(res.text)
+        expect(res.text).toMatch(dataArr.title)
+        done()
+      })
+  })
+})
