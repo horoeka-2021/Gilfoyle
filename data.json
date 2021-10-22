@@ -1,5 +1,6 @@
 {
   "movies": [
+
     {
       "title": "The Conjuring 2",
       "director": "James Wan",
@@ -8,6 +9,8 @@
       "rating": "7.5/10",
       "comments": " "
     },
+
+
     {
       "title": "The Conjuring 3",
       "director": "James Wan",
@@ -49,12 +52,36 @@
       "comments": " "
     },
     {
-      "title": "Incident in Ghostland",
-      "director": "Pascal Laugier",
-      "image": "/incident-ghostland.jpg",
-      "year": "14 March 2018 (USA)",
-      "rating": "6.4/10",
-      "comments": " "
+      "title": "the-conjuring",
+      "director": "James Wan",
+      "image": "/conjuring.jpg",
+      "year": "19 July 2013 (USA)",
+      "rating": "7.5/10",
+      "comments": [
+        {
+          "testKey": "test-value"
+        },
+        {
+          "testKey": "test-value"
+        },
+        {
+          "testKey": "test-value"
+        },
+        {
+          "testKey": "\r\n    asdsad"
+        },
+        {
+          "testKey": "dasdasdwqeqwe\r\n    "
+        }
+      ]
+    },
+    {
+      "title": "The Conjuring 2",
+      "director": "James Wan",
+      "image": "/conjuring-2.jpg",
+      "year": "19 July 2013 (USA)",
+      "rating": "7.5/10",
+      "comments": []
     },
     {
       "title": "The Silence of the Lambs",
@@ -62,15 +89,22 @@
       "image": "/silence-of-lambs.jpg",
       "year": "30 January 1991 (USA)",
       "rating": "8.6/10",
-      "comments": " "
+      "comments": []
     },
     {
-      "title": "the-conjuring",
-      "director": "James Wan",
-      "image": "/conjuring.jpg",
-      "year": "19 July 2013 (USA)",
-      "rating": "7.5/10",
-      "comments": 4
+      "title": "Incident in Ghostland",
+      "director": "Pascal Laugier",
+      "image": "/incident-ghostland.jpg",
+      "year": "14 March 2018 (USA)",
+      "rating": "6.4/10",
+      "comments": [
+        {
+          "testKey": "\r\n    asdad"
+        },
+        {
+          "testKey": "\r\n    asdads"
+        }
+      ]
     }
   ]
 }

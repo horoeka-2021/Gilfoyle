@@ -1,11 +1,11 @@
 <div class="movie">
   <img class="img-circle movie-grid" src="/images{{image}}" alt="{{name}}" />
+
   <h2>{{title}}</h2>
   <div><a href="{{urlplaceholder}}">Movies</a></div>
   <div>Director: {{director}}</div>
   <div>Rating: {{rating}}</div>
   <div>Year: {{year}}</div>
-
   <div class="review-list">Review:
     {{#each comments}}<ul><li>{{test}}</li></ul>{{/each}}</div>
   <button href="/movies/{{title}}/edit">add review</button>
