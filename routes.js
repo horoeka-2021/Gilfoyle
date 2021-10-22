@@ -47,18 +47,19 @@ router.get('/:movies/edit', (req, res) =>{
   
         
         console.log(returnTitle.comments);
-        const emptyArr = returnTitle.comments
-        console.log(emptyArr);
-        const commentObj = {test: req.body.comments}
-        const pushContent = emptyArr.push(commentObj)
+        const commentsArr = [...returnTitle.comments]
+        // console.log(emptyArr);
+        const commentObj = {testKey: req.body.comments}
+        commentsArr.push(commentObj)
+        
 
-        // console.log('this is pushContent: ', pushContent);
+        console.log('this is ca: ', commentsArr);
 
         const updateReview = {
             ...returnTitle,
       
             // title: req.body.movies,
-            comments: pushContent
+            comments: commentsArr
         }
         // console.log(updateReview);
 

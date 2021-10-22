@@ -1,14 +1,5 @@
 {
   "movies": [
-    "The Conjuring Trilogy",
-    {
-      "title": "The Conjuring 2",
-      "director": "James Wan",
-      "image": "/conjuring-2.jpg",
-      "year": "19 July 2013 (USA)",
-      "rating": "7.5/10",
-      "comments": " "
-    },
     {
       "title": "The Conjuring 3",
       "director": "James Wan",
@@ -71,7 +62,36 @@
       "image": "/conjuring.jpg",
       "year": "19 July 2013 (USA)",
       "rating": "7.5/10",
-      "comments": 4
+      "comments": [
+        {
+          "testKey": "test-value"
+        },
+        {
+          "testKey": "test-value"
+        },
+        {
+          "testKey": "test-value"
+        },
+        {
+          "testKey": "\r\n    asdsad"
+        },
+        {
+          "testKey": "dasdasdwqeqwe\r\n    "
+        }
+      ]
+    },
+    {
+      "title": "The Conjuring 2",
+      "director": "James Wan",
+      "image": "/conjuring-2.jpg",
+      "year": "19 July 2013 (USA)",
+      "rating": "7.5/10",
+      "comments": [
+        " ",
+        {
+          "testKey": "trash\r\n    "
+        }
+      ]
     }
   ]
 }

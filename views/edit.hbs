@@ -6,14 +6,16 @@
   <div>Rating: {{rating}}</div>
   <div>Year: {{year}}</div>
 
-  <div>comments: <ul><li>{{#each comments}}{{test}}{{/each}}</li></ul></div>
+  <div>comments: {{#each comments}}<ul><li>{{testKey}}</li></ul>{{/each}}</div>
 
   <form class="form" action="/movies/{{title}}/edit" method="post">
-    review:
+    <label for="comments" class="form-item">
+      review:
     <textarea type="text" name="comments" row="4" cols="50">
 
     </textarea>
     <input type="submit" name="" value="Submit" />
+    </label>
   </form>
 
   {{!-- <a href="/movies/{{title}}/edit"></a> --}}
