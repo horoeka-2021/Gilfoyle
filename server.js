@@ -16,6 +16,7 @@ module.exports = server;
 
 server.use("/movies", movieRoutes);
 
+//home page
 server.get("/", (req, res) => {
   getData((err, contents) => {
     if (err) {
@@ -27,6 +28,4 @@ server.get("/", (req, res) => {
     };
     res.render("home", moviesData);
   });
-  // res.send('page alive')
-  // console.log('alive');
 });

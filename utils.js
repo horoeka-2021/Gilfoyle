@@ -5,6 +5,7 @@ module.exports = {
   getData, updateData
 };
 
+//readData
 function getData(cb) {
   const filepath = path.join(__dirname, "data.json");
   fs.readFile(filepath, "utf8", (err, contents) => {
@@ -23,6 +24,7 @@ function getData(cb) {
     });
 }
 
+//writeData
 function updateData (newData, cb){
     try {
         const stringData = JSON.stringify(newData, null, 2)
