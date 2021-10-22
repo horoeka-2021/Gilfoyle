@@ -1,6 +1,7 @@
 const request = require('supertest')
 
-const server = require('../routes')
+// const { getData, updateData } = require("../utils");
+const server = require('../server')
 
 
 //home
