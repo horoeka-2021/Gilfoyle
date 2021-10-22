@@ -1,5 +1,16 @@
 {
   "movies": [
+
+    {
+      "title": "The Conjuring 2",
+      "director": "James Wan",
+      "image": "/conjuring-2.jpg",
+      "year": "19 July 2013 (USA)",
+      "rating": "7.5/10",
+      "comments": " "
+    },
+
+
     {
       "title": "The Conjuring 3",
       "director": "James Wan",
