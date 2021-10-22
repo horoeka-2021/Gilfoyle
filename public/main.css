@@ -1,9 +1,5 @@
 body {
-  /* background-color: #f5f9ff; */
-  /* background-color: #000000; */
   background-color: #8a7e5a;
-
-  /* font-family: "Spirax", cursive; */
   font-family: "Roboto", sans-serif;
   margin: 25px;
   font-size: 1.2em;
@@ -18,22 +14,7 @@ body h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* background-image: linear-gradient(
-    to left top,
-    #051937,
-    #004d7a,
-    #008793,
-    #00bf72,
-    #a7aabd
-  ); */
-
-  background-color: #ffeaa7;
   background-image: linear-gradient(315deg, #ffeaa7 0%, #000000 84%);
-
-  /* background-color: #756213;
-  background-image: linear-gradient(315deg, #756213 0%, #000000 74%); */
-
-  /* background-image: linear-gradient(315deg, #000000 0%, #958e69 74%); */
 }
 
 .app {
@@ -75,8 +56,8 @@ body h1 {
 }
 
 .movie-grid {
-  width: 30%;
-  height: 30%;
+  width: 50%;
+  height: 50%;
 }
 
 .review-list li {
@@ -100,7 +81,51 @@ body h1 {
   font-family: "Roboto", sans-serif;
 }
 
-.sub-btn-movie{
+.button {
+  background-color: #e7e7e7;
+  border: none;
+  color: #000000;
+  border-radius: 6px;
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 14px;
+  margin: 5px;
+  opacity: 0.8;
+  transition: 0.3s;
+  display: inline-block;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 1;
+  color: #000000;
+}
+
+.submit {
+  background-color: #e7e7e7;
+  border: none;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
   color: black;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.submit:hover {
+  opacity: 1;
+  background-color: white;
+}
+.form input {
+  margin: 20px;
+}
+
+.form textarea {
+  padding: 20px;
 }
