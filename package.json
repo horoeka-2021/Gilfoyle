@@ -1,0 +1,41 @@
+{
+  "name": "gilfoyle",
+  "version": "1.0.0",
+  "description": "###### Simple website ######  Simple and Spooky",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node server.js",
+    "lint": "eslint .",
+    "dev": "nodemon index --ignore data.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horoeka-2021/Gilfoyle.git"
+  },
+  "author": "",
+  "license": "ISnC",
+  "bugs": {
+    "url": "https://github.com/horoeka-2021/Gilfoyle/issues"
+  },
+  "homepage": "https://github.com/horoeka-2021/Gilfoyle#readme",
+  "jest": {
+    "watchPathIgnorePatterns": [
+      "data.json"
+    ]
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-eda": "0.1.4",
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}

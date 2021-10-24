@@ -1,0 +1,89 @@
+{
+  "movies": [
+    {
+      "title": "The Conjuring 3",
+      "url": "https://www.youtube.com/watch?v=psdS0wYRvR8",
+      "director": "James Wan",
+      "image": "/conjuring-3.jpg",
+      "year": "19 July 2013 (USA)",
+      "rating": "7.5/10",
+      "comments": []
+    },
+    {
+      "title": "Hereditary",
+      "url": "https://www.youtube.com/watch?v=V6wWKNij_1M",
+      "director": "Ari Aster",
+      "image": "/hereditary.jpg",
+      "year": "8 June 2018 (USA)",
+      "rating": "7.3/10",
+      "comments": []
+    },
+    {
+      "title": "Insidious",
+      "url": "https://www.youtube.com/watch?v=zuZnRUcoWos",
+      "director": "James Wan",
+      "image": "/insidious.jpg",
+      "year": "21 July 2011 (New Zealand)",
+      "rating": "6.8/10",
+      "comments": []
+    },
+    {
+      "title": "Get Out",
+      "url": "https://www.youtube.com/watch?v=DzfpyUB60YY",
+      "director": "Jordan Peele",
+      "image": "/get-out.jpg",
+      "year": "24 February 2017 (USA)",
+      "rating": "7.7/10",
+      "comments": []
+    },
+    {
+      "title": "The Conjuring",
+      "url": "https://www.youtube.com/watch?v=k10ETZ41q5o",
+      "director": "James Wan",
+      "image": "/conjuring.jpg",
+      "year": "19 July 2013 (USA)",
+      "rating": "7.5/10",
+      "comments": []
+    },
+    {
+      "title": "The Silence of the Lambs",
+      "url": "https://youtu.be/W6Mm8Sbe__o",
+      "director": "Jonathan Demme",
+      "image": "/silence-of-lambs.jpg",
+      "year": "30 January 1991 (USA)",
+      "rating": "8.6/10",
+      "comments": []
+    },
+    {
+      "title": "Incident in Ghostland",
+      "url": "https://youtu.be/66JuZ1cb03E",
+      "director": "Pascal Laugier",
+      "image": "/incident-ghostland.jpg",
+      "year": "14 March 2018 (USA)",
+      "rating": "6.4/10",
+      "comments": []
+    },
+    {
+      "title": "Sinister",
+      "url": "https://www.youtube.com/watch?v=_kbQAJR9YWQ",
+      "director": "Scott Derrickson",
+      "image": "/sinister.jpg",
+      "year": "12 October 2012 (Canada)",
+      "rating": "6.8/10",
+      "comments": []
+    },
+    {
+      "title": "The Conjuring 2",
+      "url": "https://www.youtube.com/watch?v=VFsmuRPClr4",
+      "director": "James Wan",
+      "image": "/conjuring-2.jpg",
+      "year": "19 July 2013 (USA)",
+      "rating": "7.5/10",
+      "comments": [
+        {
+          "review": "This is  preeee scaryy\r\n\r\n\r\n    "
+        }
+      ]
+    }
+  ]
+}
